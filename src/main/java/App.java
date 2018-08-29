@@ -1,19 +1,19 @@
 package main.java;
 
-import org.json.*;
 import java.util.HashMap;
+
 
 public class App {
     public static void main(String[] args_)
     {
         // Specify your login credentials
-        String username = "MyUsername";
-        String apiKey   = "MyAPIKey";
+        String username = "ONFON";
+        String apiKey   = "dd8a7ca108d6b00376ff76a17093877f8f90566c4aecb41d65f8accc76e317d1";
         // Specify the numbers that you want to send to in a comma-separated list
         // Please ensure you include the country code (+254 for Kenya in this case)
         String recipients = "+254724971796";
         // And of course we want our recipients to know what we really do
-        String message = "We are lumberjacks. We code all day and sleep all night";
+        String message = "MPENZI";
         // Create a new instance of our awesome gateway class
         AfricasTalkingGateway gateway  = new AfricasTalkingGateway(username, apiKey);
         /*************************************************************************************
